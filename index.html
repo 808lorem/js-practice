@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Title</title>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <select name="" id="mySelect" onchange="fun1()">
@@ -11,6 +12,12 @@
             <option value="">Pineapple</option>
             <option value="">Banana</option>
         </select>
+
+        <input type="range" value="50" min="0" max="100" step="2" id="r1" oninput="fun2()">
+        <p id="one">50</p>
+        <div id="test"></div>
+
+
         <script src="main.js"></script>
     </body>
 </html>
