@@ -1,0 +1,13 @@
+#block {
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+}
+
+.block1 {
+    margin-bottom: 10px;
+}
+
+.inpt {
+    width: 59px;
+}

@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <title>Title</title>
-    </head>
-    <body>
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
 
-        <script src="main.js"></script>
-    </body>
+	<div class="block1">
+		<div>
+			<p>Top-left</p>
+			<input type="range" id="rtl" min="0" max="100" value="0" oninput="fun1()">
+			<input type="text" id="ttl" value="0" class="inpt">
+		</div>
+		<div>
+			<p>Top-rightp</p>
+			<input type="range" id="rtr" min="0" max="100" value="0" oninput="fun1()">
+			<input type="text" id="ttr" value="0" class="inpt">
+		</div>
+		<div>
+			<p>Botton-left</p>
+			<input type="range" id="rbl" min="0" max="100" value="0" oninput="fun1()">
+			<input type="text" id="tbl" value="0" class="inpt">
+		</div>
+		<div>
+			<p>Botton-right</p>
+			<input type="range" id="rbr" min="0" max="100" value="0" oninput="fun1()">
+			<input type="text" id="tbr" value="0" class="inpt">
+		</div>
+	</div>
+
+	<div id="block"></div>
+
+	<script src="main.js"></script>
+</body>
 </html>
