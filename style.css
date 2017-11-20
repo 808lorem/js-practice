@@ -1,0 +1,20 @@
+.menu-item {
+    display: inline-block;
+    width: 120px;
+    position: relative;
+    background: cornsilk;
+    cursor: pointer;
+}
+
+.submenu {
+    position: absolute;
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+    background: #c1baa8;
+    display: none;
+}
+
+#nav {
+    text-align: center;
+}
