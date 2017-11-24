@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="ru">
-    <head>
-        <meta charset="UTF-8">
-        <title>Title</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-
-        <script src="main.js"></script>
-    </body>
+	<head>
+		<meta charset="UTF-8">
+		<title>Title</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<p>
+			<label>$</label>
+			<input type="number" id="inputdol" placeholder="0" oninput="moneyConverter(this.value)"
+			onchange="moneyConverter(this.value)">
+		</p>
+		<p>RUB:
+			<span id="outputrub">0</span>
+		</p>
+		<script src="main.js"></script>
+	</body>
 </html>
