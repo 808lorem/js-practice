@@ -15,7 +15,7 @@ var close = document.getElementsByClassName('close'),
 for(j = 0; j < close.length; j++) {
     close[j].onclick = function () {
 		var div = this.parentElement;
-		div.style.display = 'none';
+		div.remove();
 	}
 }
 
@@ -48,7 +48,7 @@ function newElement() {
 	for(var j = 0; j < close.length; j++) {
 		close[j].onclick = function () {
 			var div = this.parentElement;
-			div.style.display = 'none';
+			div.remove();
 		}
 	}
 }
